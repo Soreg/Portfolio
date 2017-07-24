@@ -25,10 +25,6 @@ body {
     overflow-x: hidden
 }
 
-.btn {
-    transition: all ease .5s
-}
-
 section {
     margin: 40px 0;
     position: relative
@@ -270,13 +266,12 @@ footer .container-fluid {
     display: none
 }
 
-#contact input:focus,
-.btn:hover {
-    transform: scale(1.05)
-}
-
 #contact .form-control:focus {
     box-shadow: 0 0 5px #b3c2e6
+}
+
+#contact .btn {
+  margin-top: 20px;
 }
 
 /*
@@ -299,6 +294,18 @@ footer span {
   Animations / Transforms
   ========================================
 */
+
+#contact input:focus {
+    transform: scale(1.05)
+}
+
+#contact .btn:hover {
+  transform: scale(1.04);
+}
+
+.btn {
+    transition: all ease-in-out .5s
+}
 
 
 /*
