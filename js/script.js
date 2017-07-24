@@ -1,0 +1,1 @@
+$(document).ready(function(){(new WOW).init();var e=(new Date).getFullYear();$("#year").html(e)});
