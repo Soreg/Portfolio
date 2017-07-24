@@ -127,8 +127,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: #2b54b4;
-    text-shadow: -5px 5px 5px #000
+    color: #4099ff;
 }
 
 h1 {
@@ -137,6 +136,10 @@ h1 {
 
 h2 {
     font-size: 60px
+}
+
+h1, h2 {
+  text-shadow: -5px 5px 5px #000;
 }
 
 h3 {
@@ -150,7 +153,6 @@ h3 {
 
 .skills h4 {
     font-size: 30px;
-    text-shadow: -3px 3px 2px #000
 }
 
 #portfolio h4 {
