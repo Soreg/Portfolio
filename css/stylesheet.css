@@ -147,6 +147,10 @@ h3 {
     color: #8fa6da
 }
 
+h5 {
+  font-size: 18px;
+}
+
 #skills h2 {
     margin-bottom: 20px
 }
@@ -219,6 +223,12 @@ footer .container-fluid {
     position: relative;
     left: 0;
     right: 0
+}
+
+#portfolio .description {
+  min-height: 50px;
+  width: 70%;
+  margin: 20px auto;
 }
 
 #portfolio .carousel-indicators {
