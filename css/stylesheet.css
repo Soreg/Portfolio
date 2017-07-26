@@ -159,6 +159,10 @@ h5 {
     font-size: 30px;
 }
 
+#portfolio h2 {
+  margin-bottom: 50px;
+}
+
 #portfolio h4 {
     font-size: 30px;
     color: #fff;
@@ -209,14 +213,14 @@ h5 {
   ========================================
 */
 
-#portfolio,
+.carouselSection,
 .navbar-default,
 footer .container-fluid {
-    background: rgba(0, 0, 0, .2)
+  background: rgba(0, 0, 0, .2)
 }
 
 #portfolio {
-    min-height: 300px
+  min-height: 300px
 }
 
 #portfolio img {
