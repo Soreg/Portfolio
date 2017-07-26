@@ -215,6 +215,10 @@ footer .container-fluid {
     max-width: 70%
 }
 
+#portfolio .carousel-inner {
+  padding-top: 15px;
+}
+
 #portfolio .carousel-control {
     height: 100%
 }
@@ -232,7 +236,7 @@ footer .container-fluid {
 }
 
 #portfolio .carousel-indicators {
-    bottom: 5px
+    bottom: 10px
 }
 
 #portfolio .col-md-2 a {
