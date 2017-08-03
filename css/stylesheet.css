@@ -104,12 +104,6 @@ hr {
 .socialLink img {
     max-height: 70px;
     opacity: .8;
-    transition: all ease .3s
-}
-
-.socialLink img:hover {
-    opacity: 1;
-    transform: scale(1.1)
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -324,8 +318,21 @@ footer span {
   ========================================
 */
 
+.socialLink img {
+  transition: all ease .3s
+}
+
+.socialLink img:hover {
+    opacity: 1;
+    transform: scale(1.1)
+}
+
 #contact input:focus {
     transform: scale(1.05)
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
 
 #contact .btn:hover {
