@@ -219,11 +219,9 @@ footer .container-fluid {
 
 #portfolio img {
     max-height: 400px;
-    max-width: 70%
-}
-
-#portfolio .item {
-  padding-top: 15px;
+    max-width: 50%;
+    margin: 40px auto 20px auto;
+    border-radius: 10px;
 }
 
 #portfolio .carousel-control {
@@ -233,7 +231,7 @@ footer .container-fluid {
 #portfolio .carousel-caption {
     position: relative;
     left: 0;
-    right: 0
+    right: 0;
 }
 
 #portfolio .description {
