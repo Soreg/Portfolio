@@ -181,6 +181,14 @@ h5 {
     font-size: 20px
 }
 
+/* All-around */
+.text-shoutout {
+    color: #5375c6;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
 /*
   ========================================
   Contact - Section
